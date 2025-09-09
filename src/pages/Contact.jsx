@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Footer = () => {
+const Contact = () => {
     return (
         <div className='text-white'>
-            This is Footer
+            This is Contact
         </div>
     )
 }
 
-export default Footer
+export default Contact
