@@ -29,7 +29,7 @@ const App =()=> {
         <Route path="/profile" element={<Profile />} />
       </Routes> */}
 
-      <Footer />
+      {/* <Footer /> */}
 
     </Router>
   );
