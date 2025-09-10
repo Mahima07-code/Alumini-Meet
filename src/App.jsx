@@ -2,11 +2,14 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
+import Navbar2 from "./components/Navbar2"
 import Footer from "./components/Footer"
+import Home from './components/Home'
 
-import Home from "./pages/Home"
+// import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import Header from './components/Header'
 // import Auth from "./pages/Auth"
 // import AlumniDirectory from "./pages/AlumniDirectory"
 // import Events from "./pages/Events"
@@ -20,8 +23,8 @@ import LightRays from './LightRays';
 const App = () => {
   return (
     <Router>
-
-      <Navbar />
+      <Header />
+      <Navbar2 />
 
       {/* <div style={{ width: '100%', height: '600px', position: 'relative' }}>
         <LightRays
@@ -53,7 +56,7 @@ const App = () => {
         />
       </div>
       <Routes >
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="/login" element={<Auth />} />
